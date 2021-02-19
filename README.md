@@ -36,3 +36,5 @@ Finally, If you read to this. We hope you to get the highest of knowledge by our
 	Finally. We used Solidworks CAD software to design this glider, find center of gravity and calculate empty weight. Assume material to balsa wood.
 	
 ![alt text](https://github.com/Rayato159/Glider-Project/blob/main/Image/CAD.png)
+
+Read more in full report.
