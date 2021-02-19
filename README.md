@@ -20,5 +20,5 @@ We describe step by step for who want to learn how to produce some small glider 
 This project is full of obstacles, because we just study the mechanics of flight and don’t know as much about aircraft design. Therefore, we used all the knowledge from aerodynamics and this subject by the full of power for produce the best glider as we can.  
 Finally, If you read to this. We hope you to get the highest of knowledge by our report.  
 
-Read more in full report.
+Read more in full report.  
 Flight Test: https://drive.google.com/drive/folders/1Cjw-I_sFbw1iagVFhjcJ2LFoMrj9WS8H?usp=sharing
