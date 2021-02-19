@@ -14,7 +14,6 @@ Suranaree University of Technology
 
 ![alt text](https://github.com/Rayato159/Glider-Project/blob/main/Image/Group.jpg)
 
-**Preface**  
 This report is a part of the 537314 Flight Mechanics. The purpose of this report is to explain whole about of glider which we design whether why we need design like this.  
 It’s just not only about to glider design but include manufacture, flight testing, inspection after flight testing and financial report.  
 We describe step by step for who want to learn how to produce some small glider by our concept.  
@@ -37,55 +36,3 @@ Finally, If you read to this. We hope you to get the highest of knowledge by our
 	Finally. We used Solidworks CAD software to design this glider, find center of gravity and calculate empty weight. Assume material to balsa wood.
 	
 ![alt text](https://github.com/Rayato159/Glider-Project/blob/main/Image/CAD.png)
-
-**Airfoils Selection**  
-	This step is also equally important, Because to improve Cl/Cd we need to meticulous with airfoil selection.
-	First step is about collection airfoils data. (We choose only NACA airfoils for standard) Go to “Airfoil Tools” website and collect all NACA airfoils coordinate point to JavaFoil. In JavaFoil set all parameters (Standard sea levels condition, Re = 400000, M = 0.3) for simulation to find the angle of attack to that give Cl = 0.5 and calculate Cl/Cd.
-	Then analytics all data with Python coding and do some machine learning with Scikit learn module to choose the best airfoils.  
-
-We used tree decision model because to define what if we need airfoil that have angle of attack and Cl/Cd  by some value we expect. If wing we need lowest angle of attack and highest Cl/Cd for easy to launch the glider. If stabilizer we need symmetry airfoils and highest Cl/Cd for not disrupt the aerodynamics performance of the wing. what are airfoils we should get. And model score is 0.9833.
-Thus, the result is NACA6409 for wing and NACA0008 for stabilizer (But used flat plate for tail because it’s can’t produce in reality for us).
-
-**XFLR5 Simulation**  
-	XFLR5 is free software and easy to use for RC plane simulation. This software can analysis airfoils and analysis RC plane. Then. Then pull all information from conceptual design for define boundary conditions and get result below. Assume V = 9 m/s.  
-By plane analysis at angle of attack = 0 deg, Cl/Cd = 7.489, Cm = -0.064;
-
-**Performance Calculation**  
-	Consider an airplane in power off flight. The force acting on glider are lift, drag and weight. Thrust is zero because power off glider. Assume glider is constant velocity and flight path is horizontal parallel with ground. (L = W; T = D;)  
-By the free body diagram is clearly whether if less of theta then range of glider will increase. If we want to know how far of glider can gliding.
-
-R = 14.925 m  
-AOT = 7.63 deg  
-Sink rate = 1.2 m/s  
-E = 1.67 s  
-Tr = 1 kg  
-
-**Define Materials**  
-	At the first on conceptual Design. We assume all aircraft is filled by Balsa wood because Balsa wood is easy for manufacture, low cost and low weight. But in reality we can’t do that because we need to care about structure. Then we need to do some composite materials for more stiffness.
- 
-**Manufacture**  
-	This process is full of obstacles. Because We have tools and resources in finite. We need to take carefully when we do all the parts by part of aircraft. We do “Handmade Workshop”. 
-Step by step
-1.	Fuselage: Cut the balsa wood and PE foam then stick together then fillet.
-2.	Stabilizer: Cut PE foam for 2 pieces first is vertical stabilizer second is horizontal stabilizer. Then cut some stick of balsa wood and stick together finally stick all to fuselage.
-3.	Airfoils: Cut come balsa wood and rasp to airfoils shape we select in first (7 pieces).
-4.	Wings: Used 2 carbon stick for wings spar and stick together with airfoils the cut some balsa wood to do bones of wings.
-5.	Wings Skin: Attach kite paper to wings.
-6.	Finally Step: Attach wing with fuselage by tape.
-
-**Flight Test**
-	We took too many times for flight test and back to fix our glider. We do more and more to find the best result as expect. The link below is show some flight test.  
-**Result on the real day test our glider can glide about 12.6 m error from theory by 16%.**
-
-**Inspection**
-	On the real test day our glider got some problem. There’s no stabilize because the last day before real flight got some damage with the trees too many times. Every time we fix we need to attach glue that will cause to no balance weight. Another problem is about stabilizer is not manufacture good enough.
- 
-**Financial Report**  
-About 1373 Baht. (Can't import table)
-
-And finally, We need to say thanks to Mr. Sanya Phanprasert (He is our friend but not study with us.) for facilitate us to used workshop place and borrow tools to work.
-
-**References**
-1.	John D. Anderson Jr. Introduction to Flight. 8th ed. New York: McGraw-Hill. 2016
-2.	Federal Aviation Administration. Aerodynamics of flight. U.S. Department of Transportation. 2013
-3.	Andy Lennon. Basic of R/C MODEL AIRCRAFT DESIGN. Air Age Media Inc. 1996
