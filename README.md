@@ -10,7 +10,9 @@
  
 Present to Dr. Atthaphon Ariyarit.  
 Semester 2-2563  
-Suranaree University of Technology  
+Suranaree University of Technology 
+
+![alt text](https://github.com/Rayato159/Gliding-Project/blob/main/img.jpg)
 
 **Preface**  
 This report is a part of the 537314 Flight Mechanics. The purpose of this report is to explain whole about of glider which we design whether why we need design like this.  
@@ -33,6 +35,8 @@ Finally, If you read to this. We hope you to get the highest of knowledge by our
 	First step. We need to define wing shape. From objective we need high Cl/Cd and AR then we define chord about 100 mm and we are all know as the best wing shape is elliptic wing (For lift produce on wing. Because elliptic wing has Oswald efficiency number = 1) But elliptic wing is hard to manufacture. Then taper wing is better to manufacture. Taper wing give speed more than rectangular wing for long range gliding. The good taper ratio are about 0.3 to 0.4. We choose taper ratio 0.4 and sweep angle 0 degree because is easy for manufacture. Then choose T tail for stable.
 	Next step. We used the RC plane calculator website to define all dimension and improve some dimension for suitability to structure.
 	Finally. We used Solidworks CAD software to design this glider, find center of gravity and calculate empty weight. Assume material to balsa wood.
+	
+![alt text](https://github.com/Rayato159/Gliding-Project/blob/main/CAD.png)
 
 **Airfoils Selection**  
 	This step is also equally important, Because to improve Cl/Cd we need to meticulous with airfoil selection.
@@ -77,7 +81,7 @@ Step by step
 	On the real test day our glider got some problem. There’s no stabilize because the last day before real flight got some damage with the trees too many times. Every time we fix we need to attach glue that will cause to no balance weight. Another problem is about stabilizer is not manufacture good enough.
  
 **Financial Report**  
-About 1373 Baht.
+About 1373 Baht. (Can't import table)
 
 And finally, We need to say thanks to Mr. Sanya Phanprasert (He is our friend but not study with us.) for facilitate us to used workshop place and borrow tools to work.
 
