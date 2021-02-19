@@ -1,4 +1,4 @@
-# Gliding Project
+# Glider Project
 
  **Submitted by**
  1.	Ruangyot	Nanchiang	B6116736	(Project Manager)
